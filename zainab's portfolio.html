@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zainab's Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #114797;
+            color: rgb(0, 0, 0);
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        header img {
+            width: 80px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 20px;
+            letter-spacing: 2px;
+        }
+        nav {
+            text-align: center;
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: 200;
+        }
+        nav a:hover {
+            color: #298fce;
+
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        ul li {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #555;
+        }
+        .section-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+        }
+        .section-content div {
+            width: 45%;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: left;
+            transition: transform 0.3s ease-in-out;
+        }
+        .section-content div:hover {
+            transform: translateY(-5px);
+        }
+        .contact-info {
+            text-align: center;
+        }
+        .contact-info a {
+            font-size: 18px;
+            color: #2a2a2a;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact-info a:hover {
+            color: #4CAF50;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        /* Language section small icons */
+        .language-icons {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .language-icons img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .language-icons img:hover {
+            transform: scale(1.1);
+        }
+        footer {
+            background-color: #114797;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        /* Media Query for smaller screens */
+        @media (max-width: 768px) {
+            .section-content div {
+                width: 100%;
+                padding: 10px;
+            }
+            nav a {
+                font-size: 16px;
+                margin: 0 10px;
+            }
+            header h1 {
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Zainab's Portfolio</h1>
+</header>
+
+<nav>
+    <a href="#Intro">Intro</a>
+    <a href="#services">My Services</a>
+    <a href="#projects">Past Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#languages">Languages</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="Intro">
+    <h2>Intro</h2>
+    <p>
+    I am an aspiring Cybersecurity Analyst, committed to continuously learning and building my skills in the Cybersecurity field. I manage, implement, and analyze organizational networks, systems, and devices while working to maintain core security principles including confidentiality, integrity, and ethics. I am driven and passionate about safeguarding people’s security, including their financial well-being. I enjoy working with technology and analyzing and solving complex problems. My focus is on staying ahead of emerging threats and providing strategic solutions to enhance security measures. I thrive in environments that challenge my problem-solving abilities and push me to innovate in safeguarding both individual and organizational digital assets. By constantly evolving my expertise, I aim to contribute to the security and resilience of systems in an increasingly connected world.     </p>
+    <div class="image-container">
+        <img src="https://cdn.builtin.com/cdn-cgi/image/f=auto,fit=cover,w=1200,h=635,q=80/https://builtin.com/sites/www.builtin.com/files/2024-10/cybersecurity.png" alt="Zainab's Profile Picture">
+    </div>
+</section>
+
+<section id="services">
+    <h2>My Services</h2>
+    <div class="section-content">
+        <div>
+            <h3>Cybersecurity Analysis & Risk Assessment</h3>
+            <p>Assessing and identifying vulnerabilities, risks, and developing mitigation strategies to protect systems and data.</p>
+            <div class="image-container">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5E8dv-1r25z5Qidi_tkwv_u8-yh4XP8w4BQ&s" alt="Cybersecurity Analysis">
+            </div>
+        </div>
+        <div>
+            <h3>Incident Response & Recovery</h3>
+            <p>Providing solutions to detect, respond, and recover from security incidents with minimal impact on business operations.</p>
+            <div class="image-container">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPTNsjdwQBjPD4H2fneCJ70yJWRVifuRmk5Q&s" alt="Incident Response">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Past Projects</h2>
+    <div class="section-content">
+        <div>
+            <h3>Phishing Email Simulation</h3>
+            <p>Designing phishing simulations to educate users on identifying phishing attempts.</p>
+        </div>
+        <div>
+            <h3>Phishing Simulation Results</h3>
+            <p>Interpreting the results of phishing simulations and offering recommendations to improve security awareness.</p>
+        </div>
+        <div>
+            <h3>IAM Strategy Assessment</h3>
+            <p>Assessing Identity and Access Management (IAM) strategies to ensure security and compliance.</p>
+        </div>
+        <div>
+            <h3>Custom IAM Solutions</h3>
+            <p>Crafting tailored IAM solutions based on specific organizational needs.</p>
+        </div>
+    </div>
+</section>
+
+<section id="certifications">
+    <h2>Certifications</h2>
+    <div class="section-content">
+        <div>
+            <h3>Google Certificate: Foundations of Cybersecurity</h3>
+            <div class="image-container">
+                <img src="C:\Users\REHAN GUJJAR\Downloads\Screenshot_10-12-2024_212311_.jpeg" alt="Google Certificate">
+            </div>
+        </div>
+        <div>
+            <h3>HP Life Certificate: Introduction to Cybersecurity Awareness</h3>
+            <div class="image-container">
+                <img src= "C:\Users\REHAN GUJJAR\Downloads\Screenshot_10-12-2024_212423_.jpeg" alt="HP Life Certificate">
+            </div>
+        </div>
+        <div>
+            <h3>HP Life Certificate: Effective Leadership</h3>
+            <div class="image-container">
+                <img src= "C:\Users\REHAN GUJJAR\Downloads\Screenshot_10-12-2024_212445_.jpeg"alt="Effective Leadership">
+            </div>
+        </div>
+        <div>
+            <h3>Forage Certificate: Cybersecurity Job Simulation</h3>
+            <div class="image-container">
+                <img src="c:\Users\REHAN GUJJAR\Downloads\Screenshot_10-12-2024_212514_.jpeg" alt="Forage Certificate">
+            </div>
+        </div>
+        <div>
+            <h3>Forage Certificate: Cybersecurity Analyst Job Simulation</h3>
+            <div class="image-container">
+                <img src= "c:\Users\REHAN GUJJAR\Downloads\Screenshot_10-12-2024_212537_.jpeg" alt="Forage Certificate">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="languages">
+    <h2>Languages</h2>
+    <div class="language-icons">
+        <img src="https://ih1.redbubble.net/image.4419222780.5977/fposter,small,wall_texture,product,750x1000.jpg" alt="C Language">
+
+        <img src="https://logowik.com/content/uploads/images/911_c_logo.jpg" alt="C++ Language">
+
+        <img src="https://1000logos.net/wp-content/uploads/2020/08/Python-Logo.png" alt="Python Language">
+
+        <img src="https://i.pinimg.com/736x/85/44/da/8544dac44077c26e351801c7181a9e12.jpg" alt="Java Language">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA1uFsJtU3AiSYk-Di-pOSFO_EiwEvidll3Q&s" alt="SQL Language">
+    </div>
+</section>
+
+       
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="contact-info">
+        <p>If you would like to get in touch or discuss any opportunities, feel free to reach out to me!</p>
+        <p>Contact: <a href="contactto:030000000">+92345679078</a></p>
+        <p>Email: <a href="mailto:zainab@example.com">zainab@gmail.com</a></p>
+        <p>Address: <a href="Address:city">Gujranwala , Pakistan</a></p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Zainab's Portfolio. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
